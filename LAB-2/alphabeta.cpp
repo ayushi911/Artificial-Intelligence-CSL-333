@@ -59,7 +59,7 @@ int values2[] = {-3,7,4,-99,4,6,78,32,-10,11,49,12, 57,700,15,-16};
 /*
 output for the following two binary game trees is as follows:
 
-FOR THE BINARY TREE IN ARRAY VALUES1={1,2,3,4,5,6,7,8}
+FOR THE BINARY TREE IN ARRAY VALUES1={1,2,3,4,5,6,7,8,9}
 
 Alpha before calling: -2147483648
 Beta before calling: 2147483647
@@ -82,7 +82,7 @@ Beta while returning: 6
 Alpha while returning: 6
 Result (value of alpha) for array values1 : 6
 
-FOR THE BINARY TREE IN ARRAY VALUES2={-3,7,4,-99,4,6,78,32,-10,11,49,12, 57,700,15,-16}
+FOR THE BINARY TREE IN ARRAY VALUES2={-3,7,4,-99,4,6,78,32,-10,11,49,12, 57,700,15,-16, 17}
 
 Alpha before calling: -2147483648
 Beta before calling: 2147483647
@@ -147,7 +147,8 @@ Alpha while returning: 15
 Beta while returning: 15
 Alpha before calling: 4
 Beta before calling: 15
-Beta while returning: 2
+Beta while returning: 15
+Beta while returning: 0
 Alpha while returning: 4
 Beta before calling: 15
 Beta while returning: 6
@@ -161,7 +162,8 @@ Alpha while returning: 4
 Beta before calling: 2147483647
 Alpha before calling: 4
 Beta before calling: 2147483647
-Beta while returning: 2
+Beta while returning: 17
+Beta while returning: 0
 Alpha while returning: 4
 Beta before calling: 2147483647
 Beta while returning: 6
