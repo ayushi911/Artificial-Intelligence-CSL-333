@@ -1,53 +1,13 @@
 Output for the code implemented on the two binary game trees is as follows:
 
 
-FOR THE BINARY TREE IN ARRAY VALUES1={1,2,3,4,5,6,7,8,9}
+FOR THE BINARY TREE IN ARRAY VALUES1={6,4,8,2,1,3,5}
 
 Alpha before calling alphabeta(): -2147483648
 Beta before calling alphabeta(): 2147483647
 Alpha before calling alphabeta(): -2147483648
 Beta before calling alphabeta(): 2147483647
-Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 1
-Beta while returning: 2147483647
-value of bestValue: 1
-Alpha while returning: 2
-Beta while returning: 2147483647
-value of bestValue: 2
 Alpha while returning: -2147483648
-Beta while returning: 2
-value of bestValue: 2
-Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 2
-Alpha while returning: 3
-Beta while returning: 2
-value of bestValue: 3
-Alpha while returning: -2147483648
-Beta while returning: 2
-value of bestValue: 2
-Alpha while returning: 2
-Beta while returning: 2147483647
-value of bestValue: 2
-Alpha before calling alphabeta(): 2
-Beta before calling alphabeta(): 2147483647
-Alpha before calling alphabeta(): 2
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 5
-Beta while returning: 2147483647
-value of bestValue: 5
-Alpha while returning: 6
-Beta while returning: 2147483647
-value of bestValue: 6
-Alpha while returning: 2
-Beta while returning: 6
-value of bestValue: 6
-Alpha before calling alphabeta(): 2
-Beta before calling alphabeta(): 6
-Alpha while returning: 7
-Beta while returning: 6
-value of bestValue: 7
-Alpha while returning: 2
 Beta while returning: 6
 value of bestValue: 6
 Alpha while returning: 6
@@ -55,7 +15,8 @@ Beta while returning: 2147483647
 value of bestValue: 6
 Result (value of alpha) for array values1 : 6
 
-FOR THE BINARY TREE IN ARRAY VALUES2={-3,7,4,-99,4,6,78,32,-10,11,49,12, 57,700,15,-16,17}
+
+FOR THE BINARY TREE IN ARRAY VALUES2={-3,7,4,-99,4,6,78,32,-10,11,49,12, 57,700,15}
 
 Alpha before calling alphabeta(): -2147483648
 Beta before calling alphabeta(): 2147483647
@@ -63,97 +24,23 @@ Alpha before calling alphabeta(): -2147483648
 Beta before calling alphabeta(): 2147483647
 Alpha before calling alphabeta(): -2147483648
 Beta before calling alphabeta(): 2147483647
-Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: -2147483648
-Beta while returning: -3
-value of bestValue: -3
-Alpha while returning: -2147483648
-Beta while returning: -3
-value of bestValue: -3
-Alpha while returning: -2147483648
-Beta while returning: -3
-value of bestValue: -3
 Alpha while returning: -3
 Beta while returning: 2147483647
 value of bestValue: -3
-Alpha before calling alphabeta(): -3
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: -3
-Beta while returning: 4
-value of bestValue: 4
-Alpha while returning: -3
-Beta while returning: -99
-value of bestValue: -99
-Alpha while returning: -3
+Alpha while returning: 7
 Beta while returning: 2147483647
-value of bestValue: -3
-Alpha before calling alphabeta(): -3
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: -3
-Beta while returning: 4
-value of bestValue: 4
-Alpha while returning: -3
-Beta while returning: 4
-value of bestValue: 4
-Alpha while returning: -3
-Beta while returning: 4
-value of bestValue: 4
-Alpha while returning: 4
-Beta while returning: 2147483647
-value of bestValue: 4
+value of bestValue: 7
 Alpha while returning: -2147483648
-Beta while returning: 4
-value of bestValue: 4
+Beta while returning: 7
+ value of bestValue: 7
 Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 4
-Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 4
-Alpha while returning: -2147483648
-Beta while returning: 4
-value of bestValue: 4
-Alpha while returning: -2147483648
-Beta while returning: 4
-value of bestValue: 4
-Alpha while returning: -2147483648
-Beta while returning: 4
+Beta before calling alphabeta(): 7
+Alpha while returning: 4
+Beta while returning: 7
 value of bestValue: 4
 Alpha while returning: 4
-Beta while returning: 4
+Beta while returning: 7
 value of bestValue: 4
-Alpha while returning: -2147483648
-Beta while returning: 4
-value of bestValue: 4
-Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 4
-Alpha before calling alphabeta(): -2147483648
-Beta before calling alphabeta(): 4
-Alpha while returning: -2147483648
-Beta while returning: -10
-value of bestValue: -10
-Alpha while returning: -2147483648
-Beta while returning: -10
-value of bestValue: -10
-Alpha while returning: -2147483648
-Beta while returning: -10
-value of bestValue: -10
-Alpha while returning: -10
-Beta while returning: 4
-value of bestValue: -10
-Alpha before calling alphabeta(): -10
-Beta before calling alphabeta(): 4
-Alpha while returning: -10
-Beta while returning: 4
-value of bestValue: 49
-Alpha while returning: -10
-Beta while returning: 4
-value of bestValue: 12
-Alpha while returning: -10
-Beta while returning: 4
-value of bestValue: 12
-Alpha while returning: 12
-Beta while returning: 4
-value of bestValue: 12
 Alpha while returning: -2147483648
 Beta while returning: 4
 value of bestValue: 4
@@ -164,140 +51,24 @@ Alpha before calling alphabeta(): 4
 Beta before calling alphabeta(): 2147483647
 Alpha before calling alphabeta(): 4
 Beta before calling alphabeta(): 2147483647
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 4
-Beta while returning: -10
-value of bestValue: -10
 Alpha while returning: 4
 Beta while returning: 2147483647
-value of bestValue: -10
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 4
-Beta while returning: 49
-value of bestValue: 49
-Alpha while returning: 4
-Beta while returning: 12
-value of bestValue: 12
-Alpha while returning: 4
-Beta while returning: 12
-value of bestValue: 12
-Alpha while returning: 12
+value of bestValue: 4
+Alpha while returning: 6
 Beta while returning: 2147483647
-value of bestValue: 12
-Alpha before calling alphabeta(): 12
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 12
-Beta while returning: 57
-value of bestValue: 57
-Alpha while returning: 12
-Beta while returning: 57
-value of bestValue: 57
-Alpha while returning: 12
-Beta while returning: 15
-value of bestValue: 15
-Alpha while returning: 15
-Beta while returning: 2147483647
-value of bestValue: 15
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 15
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 15
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 15
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 57
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 57
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 15
-Alpha while returning: 15
-Beta while returning: 15
-value of bestValue: 15
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 15
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 15
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 15
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 17
-Alpha while returning: 4
-Beta while returning: 0
-value of bestValue: 0
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 0
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 15
+value of bestValue: 6
 Alpha while returning: 4
 Beta while returning: 6
 value of bestValue: 6
-Alpha while returning: 4
-Beta while returning: 3
-value of bestValue: 3
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 3
 Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 15
-Alpha while returning: 4
-Beta while returning: 1
-value of bestValue: 1
-Alpha while returning: 4
-Beta while returning: 15
-value of bestValue: 3
-Alpha while returning: 4
-Beta while returning: 3
-value of bestValue: 3
-Alpha while returning: 4
-Beta while returning: 2147483647
-value of bestValue: 4
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 4
-Beta while returning: 17
-value of bestValue: 17
-Alpha while returning: 4
-Beta while returning: 0
-value of bestValue: 0
-Alpha while returning: 4
-Beta while returning: 2147483647
-value of bestValue: 0
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
+Beta before calling alphabeta(): 6
+Alpha while returning: 78
+Beta while returning: 6
+value of bestValue: 78
 Alpha while returning: 4
 Beta while returning: 6
 value of bestValue: 6
-Alpha while returning: 4
-Beta while returning: 3
-value of bestValue: 3
-Alpha while returning: 4
+Alpha while returning: 6
 Beta while returning: 2147483647
-value of bestValue: 3
-Alpha before calling alphabeta(): 4
-Beta before calling alphabeta(): 2147483647
-Alpha while returning: 4
-Beta while returning: 1
-value of bestValue: 1
-Alpha while returning: 4
-Beta while returning: 2147483647
-value of bestValue: 3
-Alpha while returning: 4
-Beta while returning: 3
-value of bestValue: 3
-Alpha while returning: 4
-Beta while returning: 2147483647
-value of bestValue: 4
-Result (value of alpha) for array values2 : 4
+value of bestValue: 6
+Result (value of alpha) for array values2 : 6
