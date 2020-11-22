@@ -1,0 +1,4 @@
+#  Analysis of Binary and Multi-class Logistic Regression problems
+<br>To run the given programs, and analyse the following:<br>
+- For the binary classification problem, create your own data and the corresponding true labels (x and y). Train the model with the different number of iterations (given by max_iter argument). Generate the confusion matrices, classification reports, and the accuracy plot with respect to the number of iterations.
+- For the multi-class classification problem using MNIST database, train the model with different training sample sizes (given by train_samples variable) and for each training sample size, give a different number of iterations (max_iter argument). Finally, generate the confusion matrices, classification reports, and the accuracy plots with respect to the number of iterations.
