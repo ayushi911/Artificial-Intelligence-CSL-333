@@ -1,4 +1,5 @@
 # Travelling Salesperson Problem
+<hr>
 Containes the solution to the problem with 4 search algorithms:<br>
 1. BFS
 2. DFS
